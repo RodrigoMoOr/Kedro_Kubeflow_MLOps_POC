@@ -1,0 +1,5 @@
+steps:
+- name: 'rmorales/docker'
+  args: ['build', '-t', 'rmorales/kedro-kubeflow-359620/ml-image', '.']
+- name: 'rmorales/docker'
+  args: ['push', 'rmorales/kedro-kubeflow-359620/ml-image']
